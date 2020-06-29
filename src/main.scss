@@ -1,4 +1,101 @@
-*{
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.d-flex-justified{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+
+    h1#logo{
+        font-family: 'Lobster', cursive, Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+        width: 4rem;
+        height: 4rem;
+        background: red;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navmenu{
+        @extend .d-flex-justified;
+    
+
+    ul{
+        @extend .d-flex-justified;
+   
+
+
+        li{
+        margin-left: 20px;
+        font-size: 1rem;
+        }
+    }
+        .toggleMenu{
+            display: none;
+
+            span{
+                display: block;
+                width: 30px;
+                height: 2px;
+                background: #fff;
+                margin-bottom: 7px;
+
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+}
+
 }
