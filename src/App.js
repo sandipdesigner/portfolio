@@ -1,42 +1,33 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './main.css';
+import Nav from './Nav';
+import Home from './Home';
+import About from './About';
+import Mywork from './Mywork';
+import Contact from './Contact';
+import { BrowserRouter as Router , Switch , Route } from 'react-router-dom';
+
 function App() {
   return (
+    <Router>
     <div className="App">
-      <nav>
-      <div className="container">
-      <div className="row">
-      <div className="col-xl-12">
+      <Nav />
 
-      <div className="d-flex-justified">
-      <h1 id="logo">SC</h1>
+    <Switch>
+      <Route path="/" exact component={Home} />
 
-      <div className="navmenu">
-        
-      <div className="toggleMenu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
+      <Route path="/about" component={About} />
 
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Portfolio</li>
-        <li>Contact</li>
-      </ul>
-     
-      </div>
+      <Route path="/mywork" component={Mywork} />
 
-      </div>
+      <Route path="/contact" component={Contact} />
 
-      </div>
-      </div>
-      </div>
-      </nav>
+      </Switch>
+
 
     </div>
+    </Router>
   );
 }
 
