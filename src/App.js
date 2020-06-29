@@ -1,11 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>This is my website.</h1>
+      <nav>
+      <h1 id="logo">SC</h1>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Portfolio</li>
+        <li>Contact</li>
+      </ul>
+      </nav>
+
     </div>
   );
 }
