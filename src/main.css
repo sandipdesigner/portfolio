@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -44,7 +44,12 @@ table {
 
 body {
   font-size: 62.5%;
-  font-family: 'Open Sans', sans-serif, Arial, Helvetica, sans-serif;
+  font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 120%;
 }
 
 .d-flex-justified, nav .navmenu, nav .navmenu ul {
@@ -60,9 +65,12 @@ body {
 }
 
 nav {
-  background-color: #333;
   color: #fff;
   padding: 10px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 nav h1#logo {
@@ -70,7 +78,7 @@ nav h1#logo {
   font-size: 2rem;
   width: 4rem;
   height: 4rem;
-  background: red;
+  background: #cc528b;
   border: 3px solid rgba(255, 255, 255, 0.5);
   border-radius: 50%;
   display: -webkit-box;
@@ -110,5 +118,57 @@ nav .navmenu .toggleMenu span {
 
 nav .navmenu .toggleMenu span:last-child {
   margin-bottom: 0;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: radial-gradient(#454d62, #252934);
+  color: #fff;
+}
+
+header h1 span {
+  color: #cc528b;
+}
+
+header .connect {
+  margin-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .connect h2 {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+header .connect ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .connect ul li {
+  margin-right: 1.5rem;
+  font-size: 24px;
+}
+
+header .connect ul li a {
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './font-awesome.min.css';
 import './main.css';
 import Nav from './Nav';
 import Home from './Home';
