@@ -439,6 +439,9 @@ header .connect ul li a {
     margin-left: 10px;
     margin-bottom: 10px;
   }
+  header {
+    min-height: calc(100vh - 84px);
+  }
   header .connect h2 {
     font-size: 1rem;
   }

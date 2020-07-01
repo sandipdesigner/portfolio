@@ -275,6 +275,8 @@ header{
         }
     }
     header{
+        min-height: calc(100vh - 84px);
+        
         .connect{
             h2{
                 font-size: 1rem;
