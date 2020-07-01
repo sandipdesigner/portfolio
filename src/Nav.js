@@ -5,7 +5,6 @@ import { NavLink } from 'react-router-dom';
 
 function Nav() {
   return (
-    <div className="App">
       <nav>
       <div className="container">
       <div className="row">
@@ -41,7 +40,6 @@ function Nav() {
       </nav>
 
 
-    </div>
   );
 }
 

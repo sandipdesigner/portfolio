@@ -6,7 +6,7 @@ import Typical from 'react-typical';
 
 function Home() {
   return (
-    <div className="App">
+    
       <header>
         <div className="container">
           <h1>Hello, I'm <span>Sandip Chakraborty</span><br/>
@@ -32,7 +32,6 @@ function Home() {
           
         </div>
       </header>
-    </div>
   );
 }
 
