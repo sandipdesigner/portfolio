@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './main.css';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function Nav() {
   return (
@@ -24,10 +24,10 @@ function Nav() {
 
       <ul>
         
-        <li><Link to="/portfolio/">Home</Link></li>
-        <li><Link to="/portfolio/about">About</Link></li>
-        <li><Link to="/portfolio/mywork">Portfolio</Link></li>
-        <li><Link to="/portfolio/contact">Contact</Link></li>
+        <li><NavLink to="/portfolio/" exact activeClassName="navactive">Home</NavLink></li>
+        <li><NavLink to="/portfolio/about" activeClassName="navactive">About</NavLink></li>
+        <li><NavLink to="/portfolio/mywork" activeClassName="navactive">Portfolio</NavLink></li>
+        <li><NavLink to="/portfolio/contact" activeClassName="navactive">Contact</NavLink></li>
         
       </ul>
      

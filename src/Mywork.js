@@ -1,11 +1,15 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './main.css';
 
 function Mywork() {
   return (
     <div className="App">
-      <h1>Mywork page</h1>
+      <header>
+      <div className="container">
+      <h1>Portfolio</h1>
+      <p className="mt-10">Content will be here soon....</p>
+      </div>
+      </header>
     </div>
   );
 }

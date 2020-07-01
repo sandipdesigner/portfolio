@@ -1,5 +1,160 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+@import url("../node_modules/bootstrap/dist/css/bootstrap.min.css");
+/* margin top classes */
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-25 {
+  margin-top: 25px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mt-35 {
+  margin-top: 35px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-45 {
+  margin-top: 45px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mt-55 {
+  margin-top: 55px;
+}
+
+.mt-60 {
+  margin-top: 60px;
+}
+
+.mt-65 {
+  margin-top: 65px;
+}
+
+.mt-70 {
+  margin-top: 70px;
+}
+
+.mt-75 {
+  margin-top: 75px;
+}
+
+.mt-80 {
+  margin-top: 80px;
+}
+
+.mt-85 {
+  margin-top: 85px;
+}
+
+.mt-90 {
+  margin-top: 90px;
+}
+
+.mt-95 {
+  margin-top: 95px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+/* margin bottom classes */
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-35 {
+  margin-bottom: 35px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-45 {
+  margin-bottom: 45px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mb-55 {
+  margin-bottom: 55px;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
+}
+
+.mb-65 {
+  margin-bottom: 65px;
+}
+
+.mb-70 {
+  margin-bottom: 70px;
+}
+
+.mb-75 {
+  margin-bottom: 75px;
+}
+
+.mb-80 {
+  margin-bottom: 80px;
+}
+
+.mb-85 {
+  margin-bottom: 85px;
+}
+
+.mb-90 {
+  margin-bottom: 90px;
+}
+
+.mb-95 {
+  margin-bottom: 95px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -42,6 +197,12 @@ table {
   border-spacing: 0;
 }
 
+a, a:hover, a:focus {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+
 body {
   font-size: 62.5%;
   font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
@@ -50,6 +211,10 @@ body {
 h1 {
   font-size: 3.5rem;
   line-height: 120%;
+}
+
+p {
+  font-size: 1.5rem;
 }
 
 .d-flex-justified, nav .navmenu, nav .navmenu ul {
@@ -62,6 +227,27 @@ h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.btn, .btn-purple {
+  border-radius: 0;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+}
+
+.btn-purple {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  background: #cc528b;
+}
+
+.btn-purple:hover {
+  background: #943260;
 }
 
 nav {
@@ -100,8 +286,29 @@ nav .navmenu ul li {
 }
 
 nav .navmenu ul li a {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.5);
   text-decoration: none;
+  display: block;
+}
+
+nav .navmenu ul li a.navactive {
+  color: white;
+}
+
+nav .navmenu ul li a:after {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #cc528b;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+nav .navmenu ul li a.navactive:after {
+  width: 100%;
 }
 
 nav .navmenu .toggleMenu {
@@ -124,6 +331,7 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: auto;
   min-height: 100vh;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -139,7 +347,7 @@ header h1 span {
 }
 
 header .connect {
-  margin-top: 3rem;
+  margin: 2rem 0 2rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -149,7 +357,8 @@ header .connect {
 }
 
 header .connect h2 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
   color: rgba(255, 255, 255, 0.6);
 }
 
