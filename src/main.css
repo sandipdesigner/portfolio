@@ -344,6 +344,11 @@ header {
   color: #fff;
 }
 
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
 header svg {
   position: absolute;
   left: 0;
@@ -364,6 +369,8 @@ header .connect {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
+  z-index: 2;
 }
 
 header .connect h2 {

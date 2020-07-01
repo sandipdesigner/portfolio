@@ -180,6 +180,11 @@ header{
     background: radial-gradient(#454d62 , #252934);
     color: #fff;
 
+    .container{
+        position: relative;
+        z-index: 2;
+    }
+
     svg{
         position: absolute;
         left: 0;
@@ -196,6 +201,8 @@ header{
         margin: 2rem 0 2rem 0;
         display: flex;
         align-items: center;
+        position: relative;
+        z-index: 2;
 
         h2{
             font-size: 1.3rem;
