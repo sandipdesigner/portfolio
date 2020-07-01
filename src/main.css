@@ -257,6 +257,7 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 2;
 }
 
 nav h1#logo {
@@ -276,6 +277,22 @@ nav h1#logo {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+nav .toggleMenu {
+  display: none;
+}
+
+nav .toggleMenu span {
+  display: block;
+  width: 30px;
+  height: 2px;
+  background: #fff;
+  margin-bottom: 7px;
+}
+
+nav .toggleMenu span:last-child {
+  margin-bottom: 0;
 }
 
 nav .navmenu ul li {
@@ -311,26 +328,11 @@ nav .navmenu ul li a.navactive:after {
   width: 100%;
 }
 
-nav .navmenu .toggleMenu {
-  display: none;
-}
-
-nav .navmenu .toggleMenu span {
-  display: block;
-  width: 30px;
-  height: 2px;
-  background: #fff;
-  margin-bottom: 7px;
-}
-
-nav .navmenu .toggleMenu span:last-child {
-  margin-bottom: 0;
-}
-
 header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
   height: auto;
   min-height: 100vh;
   -webkit-box-sizing: border-box;
@@ -340,6 +342,14 @@ header {
           align-items: center;
   background: radial-gradient(#454d62, #252934);
   color: #fff;
+}
+
+header svg {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.1;
 }
 
 header h1 span {
@@ -379,5 +389,51 @@ header .connect ul li {
 
 header .connect ul li a {
   color: #fff;
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  nav {
+    position: relative;
+    background: #252934;
+  }
+  nav .d-flex-justified, nav .navmenu, nav .navmenu ul {
+    display: block;
+  }
+  nav h1#logo {
+    float: left;
+  }
+  nav .toggleMenu {
+    display: block;
+    margin-top: 20px;
+    float: right;
+  }
+  nav .navmenu {
+    clear: both;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  nav .navmenu.visible {
+    visibility: visible;
+    opacity: 1;
+    height: 150px;
+  }
+  nav .navmenu.hidden {
+    visibility: visible;
+    opacity: 0;
+    height: 0;
+  }
+  nav .navmenu ul {
+    padding-top: 10px;
+  }
+  nav .navmenu ul li {
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  header .connect h2 {
+    font-size: 1rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */

@@ -90,6 +90,7 @@ nav{
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 2;
 
     h1#logo{
         font-family: 'Lobster', cursive, Arial, Helvetica, sans-serif;
@@ -102,6 +103,23 @@ nav{
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+
+    .toggleMenu{
+        display: none;
+
+        span{
+            display: block;
+            width: 30px;
+            height: 2px;
+            background: #fff;
+            margin-bottom: 7px;
+
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
     }
 
     .navmenu{
@@ -145,21 +163,7 @@ nav{
         }
         }
     }
-        .toggleMenu{
-            display: none;
-
-            span{
-                display: block;
-                width: 30px;
-                height: 2px;
-                background: #fff;
-                margin-bottom: 7px;
-
-                &:last-child{
-                    margin-bottom: 0;
-                }
-            }
-        }
+        
 
 }
 
@@ -167,6 +171,7 @@ nav{
 
 header{
     display: flex;
+    position: relative;
     height: auto;
     min-height: 100vh;
     box-sizing: border-box;
@@ -174,6 +179,14 @@ header{
     // background: #252934;
     background: radial-gradient(#454d62 , #252934);
     color: #fff;
+
+    svg{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        opacity: 0.1;
+    }
 
     h1 span{
         color: $purpleColor;
@@ -207,7 +220,58 @@ header{
 
     }
   
-
-        
 }
 
+
+@media(max-width:$breakpoint-mobile){
+    h1{
+        font-size: 1.5rem;
+    }
+    nav{
+        position: relative;
+        background: #252934;
+
+        .d-flex-justified{
+            display: block;
+        }
+        h1#logo{
+            float: left;
+        }
+        .toggleMenu{
+            display: block;
+            margin-top: 20px;
+            float: right;
+        }
+        .navmenu{
+            clear: both;
+            transition: all 0.2s ease-in-out;
+            &.visible{
+                visibility: visible;
+                opacity: 1;
+                height: 150px;
+            }
+            &.hidden{
+                visibility: visible;
+                opacity: 0;
+                height: 0;
+            }
+            ul{
+                padding-top: 10px;
+
+                li{
+                    margin-left: 10px;
+                    margin-bottom: 10px;
+                }
+            }
+
+            
+        }
+    }
+    header{
+        .connect{
+            h2{
+                font-size: 1rem;
+            }
+        }
+    }
+}

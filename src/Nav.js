@@ -1,9 +1,16 @@
-import React from 'react';
+import React, {useState} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './main.css';
 import { NavLink } from 'react-router-dom';
 
 function Nav() {
+
+  const [isVisible, setVisible] = useState(false);
+
+    const menuToggle = () => {
+      setVisible(!isVisible);
+  }
+
   return (
       <nav>
       <div className="container">
@@ -12,15 +19,13 @@ function Nav() {
 
       <div className="d-flex-justified">
       <h1 id="logo">SC</h1>
-
-      <div className="navmenu">
-        
-      <div className="toggleMenu">
+      <div className="toggleMenu" onClick={menuToggle}>
         <span></span>
         <span></span>
         <span></span>
       </div>
 
+      <div className="navmenu" className = {isVisible ? 'navmenu visible' : 'navmenu hidden'}>
       <ul>
         
         <li><NavLink to="/portfolio/" exact activeClassName="navactive">Home</NavLink></li>
