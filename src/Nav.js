@@ -29,9 +29,9 @@ function Nav() {
       <ul>
         
         <li><NavLink to="/portfolio/" exact activeClassName="navactive">Home</NavLink></li>
-        <li><NavLink to="/portfolio/about" activeClassName="navactive">About</NavLink></li>
-        <li><NavLink to="/portfolio/mywork" activeClassName="navactive">Portfolio</NavLink></li>
-        <li><NavLink to="/portfolio/contact" activeClassName="navactive">Contact</NavLink></li>
+        <li><NavLink to="/portfolio/about/" exact activeClassName="navactive">About</NavLink></li>
+        <li><NavLink to="/portfolio/mywork/" exact activeClassName="navactive">Portfolio</NavLink></li>
+        <li><NavLink to="/portfolio/contact/" exact activeClassName="navactive">Contact</NavLink></li>
         
       </ul>
      
