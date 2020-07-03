@@ -7,7 +7,7 @@ import Home from './Home';
 import About from './About';
 import Mywork from './Mywork';
 import Contact from './Contact';
-import { BrowserRouter as Router , Switch , Route } from 'react-router-dom';
+import { HashRouter as Router , Switch , Route } from 'react-router-dom';
 
 function App() {
   return (
@@ -16,13 +16,13 @@ function App() {
       <Nav />
 
     <Switch>
-      <Route path="/portfolio/" exact component={Home} />
+      <Route path="/" exact component={Home} />
 
-      <Route path="/portfolio/about" component={About} />
+      <Route path="/about" component={About} />
 
-      <Route path="/portfolio/mywork" component={Mywork} />
+      <Route path="/mywork" component={Mywork} />
 
-      <Route path="/portfolio/contact" component={Contact} />
+      <Route path="/contact" component={Contact} />
 
       </Switch>
 

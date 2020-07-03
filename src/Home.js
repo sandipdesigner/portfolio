@@ -11,7 +11,7 @@ function Home() {
         <div className="container">
           <div className="row">
             <div className="col-xl-12">
-              
+
           <h1>Hello, I'm <span>Sandip Chakraborty</span><br/>
           I am an <Typical
         steps={['UI Developer.', 3000, 'UI Designer.', 3000 ]}
@@ -31,7 +31,7 @@ function Home() {
           
         </div>
 
-        <Link to="/portfolio/about" className="btn-purple">Learn more</Link>
+        <Link to="/about" className="btn-purple">Learn more</Link>
 
         </div>
         </div>

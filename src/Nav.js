@@ -28,10 +28,10 @@ function Nav() {
       <div className="navmenu" className = {isVisible ? 'navmenu visible' : 'navmenu hidden'}>
       <ul>
         
-        <li><NavLink to="/portfolio/" exact activeClassName="navactive">Home</NavLink></li>
-        <li><NavLink to="/portfolio/about" activeClassName="navactive">About</NavLink></li>
-        <li><NavLink to="/portfolio/mywork" activeClassName="navactive">Portfolio</NavLink></li>
-        <li><NavLink to="/portfolio/contact" activeClassName="navactive">Contact</NavLink></li>
+        <li><NavLink to="/" exact activeClassName="navactive">Home</NavLink></li>
+        <li><NavLink to="/about" activeClassName="navactive">About</NavLink></li>
+        <li><NavLink to="/mywork" activeClassName="navactive">Portfolio</NavLink></li>
+        <li><NavLink to="/contact" activeClassName="navactive">Contact</NavLink></li>
         
       </ul>
      
