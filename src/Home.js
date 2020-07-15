@@ -13,8 +13,8 @@ function Home() {
             <div className="col-xl-12">
 
           <h1>Hello, I'm <span>Sandip Chakraborty</span><br/>
-          I am an <Typical
-        steps={['UI Developer.', 3000, 'UI Designer.', 3000 ]}
+          I am a <Typical
+        steps={['Front End Developer.', 3000, 'UI Designer.', 3000 ]}
         loop={Infinity}
         wrapper="strong"
       />

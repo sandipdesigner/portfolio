@@ -26,6 +26,11 @@ function About() {
         <div class="skills w-90">90%</div>
         </div>
 
+        <p>Responsive Design</p>
+        <div class="skills-container mb-15">
+        <div class="skills w-90">90%</div>
+        </div>
+
         <p>JAVASCRIPT</p>
         <div class="skills-container mb-15">
         <div class="skills w-70">70%</div>

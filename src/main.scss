@@ -278,13 +278,31 @@ header{
     }
     
       
-     
+   .project-box{
+       box-sizing: border-box;
+       width: 100%;
+       display: block;
+       margin-top: 30px;
+       cursor: pointer;
+       padding: 30px;
+       background: rgba(255,255,255,0.1);
+
+       h2{
+           color:$purpleColor;
+           margin-bottom: 10px;
+       }
+   }  
       
      
   
 }
 
+@media(max-width:$breakpoint-desktop){
+    .project-box p{
+        font-size: 0.9rem;
+    }
 
+}
 @media(max-width:$breakpoint-mobile){
     h1{
         font-size: 1.5rem;

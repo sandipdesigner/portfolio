@@ -31,7 +31,7 @@ function Nav() {
         <li><NavLink to="/" exact activeClassName="navactive">Home</NavLink></li>
         <li><NavLink to="/about" activeClassName="navactive">About</NavLink></li>
         <li><NavLink to="/mywork" activeClassName="navactive">Portfolio</NavLink></li>
-        <li><NavLink to="/contact" activeClassName="navactive">Contact</NavLink></li>
+        {/* <li><NavLink to="/contact" activeClassName="navactive">Contact</NavLink></li> */}
         
       </ul>
      

@@ -6,7 +6,7 @@ import Nav from './Nav';
 import Home from './Home';
 import About from './About';
 import Mywork from './Mywork';
-import Contact from './Contact';
+// import Contact from './Contact';
 import { HashRouter as Router , Switch , Route } from 'react-router-dom';
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
 
       <Route path="/mywork" component={Mywork} />
 
-      <Route path="/contact" component={Contact} />
+      {/* <Route path="/contact" component={Contact} /> */}
 
       </Switch>
 
