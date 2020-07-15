@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.8980bc0e.chunk.css",
-    "main.js": "/portfolio/static/js/main.021458b0.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.021458b0.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.19de23f5.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.19de23f5.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/css/2.af3c1da9.chunk.css": "/portfolio/static/css/2.af3c1da9.chunk.css",
     "static/js/2.3785be6d.chunk.js": "/portfolio/static/js/2.3785be6d.chunk.js",
     "static/js/2.3785be6d.chunk.js.map": "/portfolio/static/js/2.3785be6d.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.f8fa9125c5630291d1c88f97bbf29ae7.js": "/portfolio/precache-manifest.f8fa9125c5630291d1c88f97bbf29ae7.js",
+    "precache-manifest.fc562c0e129f9e9f995520feecc2c9c9.js": "/portfolio/precache-manifest.fc562c0e129f9e9f995520feecc2c9c9.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/portfolio/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.8980bc0e.chunk.css.map": "/portfolio/static/css/main.8980bc0e.chunk.css.map",
     "static/js/2.3785be6d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.3785be6d.chunk.js.LICENSE.txt",
-    "static/media/sandip-chakraborty-cv.pdf": "/portfolio/static/media/sandip-chakraborty-cv.2d18f108.pdf"
+    "static/media/sandip-chakraborty-cv.pdf": "/portfolio/static/media/sandip-chakraborty-cv.cb3910b7.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.3785be6d.chunk.js",
     "static/css/main.8980bc0e.chunk.css",
-    "static/js/main.021458b0.chunk.js"
+    "static/js/main.19de23f5.chunk.js"
   ]
 }
