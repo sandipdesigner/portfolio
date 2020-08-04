@@ -101,8 +101,7 @@ function Mywork() {
                     Yes Mam, is an Online Household Services Marketplace.
                     Established in Kolkata, in 2015 Yes Mam is the first such
                     Online Marketplace in Eastern India and with its unique
-                    model of transparency and guaranteed service completion- Yes
-                    Mam becomes the first ever such Online Marketplace in India.
+                    model of transparency and guaranteed service completion.
                   </p>
                 </a>
               </div>
