@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.14dec1f1.chunk.css",
+    "main.css": "/portfolio/static/css/main.5bd14c31.chunk.css",
     "main.js": "/portfolio/static/js/main.48d5a07c.chunk.js",
     "main.js.map": "/portfolio/static/js/main.48d5a07c.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
@@ -9,10 +9,10 @@
     "static/js/2.3785be6d.chunk.js": "/portfolio/static/js/2.3785be6d.chunk.js",
     "static/js/2.3785be6d.chunk.js.map": "/portfolio/static/js/2.3785be6d.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.f377645bec0759424c25a1e02191e8b0.js": "/portfolio/precache-manifest.f377645bec0759424c25a1e02191e8b0.js",
+    "precache-manifest.d3555c08b7953e4445ff7b47c51adf15.js": "/portfolio/precache-manifest.d3555c08b7953e4445ff7b47c51adf15.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/portfolio/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.14dec1f1.chunk.css.map": "/portfolio/static/css/main.14dec1f1.chunk.css.map",
+    "static/css/main.5bd14c31.chunk.css.map": "/portfolio/static/css/main.5bd14c31.chunk.css.map",
     "static/js/2.3785be6d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.3785be6d.chunk.js.LICENSE.txt",
     "static/media/sandip-chakraborty-cv.pdf": "/portfolio/static/media/sandip-chakraborty-cv.718ede92.pdf"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.209c2d7e.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.3785be6d.chunk.js",
-    "static/css/main.14dec1f1.chunk.css",
+    "static/css/main.5bd14c31.chunk.css",
     "static/js/main.48d5a07c.chunk.js"
   ]
 }
