@@ -320,13 +320,15 @@ header {
     p {
       font-size: 0.9rem;
       margin-bottom: 5px;
+      font-weight: 700;
       letter-spacing: 1px;
       text-transform: uppercase;
       text-align: center;
+      color: rgba(255,255,255,0.7);
     }
     .skills-container {
-      width: 150px;
-      height: 150px;
+      width: 120px;
+      height: 120px;
       border-radius: 50%;
       overflow: hidden;
       position: relative;
@@ -367,18 +369,18 @@ header {
       }
 
       .show-width{
-        width: 140px;
-        height: 140px;
+        width: 114px;
+        height: 114px;
         border-radius: 50%;
-        margin: 5px auto;
+        margin: 3px auto;
         background: #323847;
         position: relative;
-        border:1px solid #cc528b;
+        border: 1px solid #cc528b;
         z-index: 3;
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 2.5rem;
+        font-size: 2rem;
         color: rgba(255,255,255,1);
         span{
           font-size: 1rem;
@@ -395,6 +397,7 @@ header {
     display: block;
     margin-top: 30px;
     cursor: pointer;
+    min-height: 250px;
     padding: 30px;
     background: rgba(255, 255, 255, 0.1);
 

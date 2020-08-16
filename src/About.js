@@ -75,6 +75,15 @@ function About() {
         </div>
         </div>
 
+
+        <div className="col-xl-4 col-lg-6 col-md-4">
+      <p>VUE JS </p>
+      <div className="skills-container mb-15">
+        <div className="skills h-70"></div>
+        <div className="show-width"> 70 <span>%</span> </div>
+        </div>
+        </div>
+
         <div className="col-xl-4 col-lg-6 col-md-4">
       <p>Adobe Photoshop</p>
       <div className="skills-container mb-15">
