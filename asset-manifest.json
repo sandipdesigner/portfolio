@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5bd14c31.chunk.css",
-    "main.js": "/portfolio/static/js/main.48d5a07c.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.48d5a07c.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.f6a219e2.chunk.css",
+    "main.js": "/portfolio/static/js/main.c72b1be3.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.c72b1be3.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/css/2.af3c1da9.chunk.css": "/portfolio/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.3785be6d.chunk.js": "/portfolio/static/js/2.3785be6d.chunk.js",
-    "static/js/2.3785be6d.chunk.js.map": "/portfolio/static/js/2.3785be6d.chunk.js.map",
+    "static/js/2.fa3aeb22.chunk.js": "/portfolio/static/js/2.fa3aeb22.chunk.js",
+    "static/js/2.fa3aeb22.chunk.js.map": "/portfolio/static/js/2.fa3aeb22.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.d3555c08b7953e4445ff7b47c51adf15.js": "/portfolio/precache-manifest.d3555c08b7953e4445ff7b47c51adf15.js",
+    "precache-manifest.6e32d50191b4388d9612518f85104d87.js": "/portfolio/precache-manifest.6e32d50191b4388d9612518f85104d87.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/portfolio/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.5bd14c31.chunk.css.map": "/portfolio/static/css/main.5bd14c31.chunk.css.map",
-    "static/js/2.3785be6d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.3785be6d.chunk.js.LICENSE.txt",
-    "static/media/sandip-chakraborty-cv.pdf": "/portfolio/static/media/sandip-chakraborty-cv.718ede92.pdf"
+    "static/css/main.f6a219e2.chunk.css.map": "/portfolio/static/css/main.f6a219e2.chunk.css.map",
+    "static/js/2.fa3aeb22.chunk.js.LICENSE.txt": "/portfolio/static/js/2.fa3aeb22.chunk.js.LICENSE.txt",
+    "static/media/sandip-chakraborty-cv.pdf": "/portfolio/static/media/sandip-chakraborty-cv.d17538ef.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.3785be6d.chunk.js",
-    "static/css/main.5bd14c31.chunk.css",
-    "static/js/main.48d5a07c.chunk.js"
+    "static/js/2.fa3aeb22.chunk.js",
+    "static/css/main.f6a219e2.chunk.css",
+    "static/js/main.c72b1be3.chunk.js"
   ]
 }
