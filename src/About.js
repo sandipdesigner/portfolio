@@ -104,15 +104,15 @@ function About() {
       <p>Adobe XD</p>
       <div className="skills-container mb-15">
         <div className="skills h-70"></div>
-        <div className="show-width"> 70 <span>%</span> </div>
+        <div className="show-width"> 80 <span>%</span> </div>
         </div>
         </div>
 
         <div className="col-xl-4 col-lg-6 col-md-4">
       <p>Figma</p>
       <div className="skills-container mb-15">
-        <div className="skills h-70"></div>
-        <div className="show-width"> 70 <span>%</span> </div>
+        <div className="skills h-80"></div>
+        <div className="show-width"> 80 <span>%</span> </div>
         </div>
         </div>
 
