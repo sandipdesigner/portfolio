@@ -41,12 +41,12 @@ function Home() {
                     ></i>{" "}
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="skype:live:sandip.chakraborty88?chat">
                     {" "}
                     <i class="fa fa-skype" aria-hidden="true"></i>{" "}
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
 

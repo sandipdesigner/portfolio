@@ -326,7 +326,7 @@ p {
           align-items: center;
 }
 
-.btn, .btn-purple {
+.btn, .btn-purple, .btn-blue {
   border-radius: 0;
   font-size: 1.2rem;
   padding: 10px 20px;
@@ -341,11 +341,24 @@ p {
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
-  border: 2px solid #cc528b;
+  border: 2px solid #1096ca;
+  background: #1096ca;
 }
 
 .btn-purple:hover {
-  background: #cc528b;
+  background: none;
+}
+
+.btn-blue {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  border: 2px solid #1096ca;
+  background: #1096ca;
+}
+
+.btn-blue:hover {
+  background: none;
 }
 
 nav {
@@ -363,7 +376,7 @@ nav h1#logo {
   font-size: 2rem;
   width: 4rem;
   height: 4rem;
-  background: #cc528b;
+  background: #1096ca;
   border: 3px solid rgba(255, 255, 255, 0.5);
   border-radius: 50%;
   display: -webkit-box;
@@ -417,7 +430,7 @@ nav .navmenu ul li a:after {
   left: 0;
   width: 0;
   height: 2px;
-  background: #cc528b;
+  background: #1096ca;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
@@ -457,7 +470,7 @@ header svg {
 }
 
 header h1 span {
-  color: #cc528b;
+  color: #1096ca;
 }
 
 header .connect {
@@ -522,39 +535,7 @@ header .skillsection .skills-container .skills {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #cc528b;
-}
-
-header .skillsection .skills-container .skills.h-90 {
-  height: 90%;
-}
-
-header .skillsection .skills-container .skills.h-80 {
-  height: 80%;
-}
-
-header .skillsection .skills-container .skills.h-70 {
-  height: 70%;
-}
-
-header .skillsection .skills-container .skills.h-60 {
-  height: 60%;
-}
-
-header .skillsection .skills-container .skills.h-50 {
-  height: 50%;
-}
-
-header .skillsection .skills-container .skills.h-40 {
-  height: 40%;
-}
-
-header .skillsection .skills-container .skills.h-30 {
-  height: 35%;
-}
-
-header .skillsection .skills-container .skills.h-20 {
-  height: 20%;
+  background: #1096ca;
 }
 
 header .skillsection .skills-container .show-width {
@@ -564,7 +545,7 @@ header .skillsection .skills-container .show-width {
   margin: 3px auto;
   background: #323847;
   position: relative;
-  border: 1px solid #cc528b;
+  border: 1px solid #1096ca;
   z-index: 3;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -602,7 +583,7 @@ header .project-box p {
 }
 
 header .project-box h2 {
-  color: #cc528b;
+  color: #1096ca;
   margin-bottom: 10px;
 }
 
