@@ -1,6 +1,6 @@
 import React from 'react';
 import './main.css';
-import Pdf from './sandip-chakraborty-cv.pdf'
+import Pdf from './Sandip-Chakraborty-Resume.pdf'
 
 function About() {
   return (
@@ -67,7 +67,7 @@ function About() {
         </div>
         </div>
 
-        <div className="col-xl-4 col-lg-6 col-md-4">
+        {/* <div className="col-xl-4 col-lg-6 col-md-4">
       <p>Angular JS 2+</p>
       <div className="skills-container mb-15">
         <div className="skills h-50"></div>
@@ -82,7 +82,7 @@ function About() {
         <div className="skills h-70"></div>
         <div className="show-width"> 70 <span>%</span> </div>
         </div>
-        </div>
+        </div> */}
 
         <div className="col-xl-4 col-lg-6 col-md-4">
       <p>Adobe Photoshop</p>

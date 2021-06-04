@@ -1,6 +1,6 @@
 import React from "react";
 import "./main.css";
-import Pdf from "./sandip-chakraborty-cv.pdf";
+import Pdf from "./Sandip-Chakraborty-Resume.pdf";
 import MatchHeight from "matchheight";
 
 function Mywork() {
