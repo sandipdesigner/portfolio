@@ -7,11 +7,11 @@ import Home from './Home';
 import About from './About';
 import Mywork from './Mywork';
 // import Contact from './Contact';
-import { HashRouter as Router , Switch , Route } from 'react-router-dom';
+import { Switch , Route, BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
     <div className="App">
       <Nav />
 
@@ -28,7 +28,7 @@ function App() {
 
 
     </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 
