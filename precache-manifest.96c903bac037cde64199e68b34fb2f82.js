@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4643eb36df502a9eca3660ab0d44c4d6",
+    "revision": "26ac03d48dd6b371b2f5ad61c141492d",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "163ad80fa189ec7fed23",
+    "revision": "1de36808deef93d390b8",
     "url": "/portfolio/static/css/main.f6a219e2.chunk.css"
   },
   {
@@ -20,15 +20,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.fa3aeb22.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "163ad80fa189ec7fed23",
-    "url": "/portfolio/static/js/main.eb2ad223.chunk.js"
+    "revision": "1de36808deef93d390b8",
+    "url": "/portfolio/static/js/main.78682470.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
     "url": "/portfolio/static/js/runtime-main.209c2d7e.js"
   },
   {
-    "revision": "d17538effafdc676b4746759ffb8449b",
-    "url": "/portfolio/static/media/sandip-chakraborty-cv.d17538ef.pdf"
+    "revision": "ee72ce026699dbf72f218cd41e74178a",
+    "url": "/portfolio/static/media/Sandip-Chakraborty-Resume.ee72ce02.pdf"
   }
 ]);
