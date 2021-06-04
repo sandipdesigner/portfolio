@@ -24,7 +24,7 @@ function Home() {
               <h2>Connect with me :</h2>
               <ul>
                 <li>
-                  <a href="mailto:sandip.chakraborty88@gmail.com">
+                  <a href="mailto:sandip.dev1986@outlook.com">
                     {" "}
                     <i class="fa fa-envelope" aria-hidden="true"></i>{" "}
                   </a>
