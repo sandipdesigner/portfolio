@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f6a219e2.chunk.css",
-    "main.js": "/portfolio/static/js/main.10545361.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.10545361.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.d8fb7c2d.chunk.css",
+    "main.js": "/portfolio/static/js/main.afbf3d17.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.afbf3d17.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/css/2.af3c1da9.chunk.css": "/portfolio/static/css/2.af3c1da9.chunk.css",
     "static/js/2.fa3aeb22.chunk.js": "/portfolio/static/js/2.fa3aeb22.chunk.js",
     "static/js/2.fa3aeb22.chunk.js.map": "/portfolio/static/js/2.fa3aeb22.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.50058b6128aec0acd3e19c2067646545.js": "/portfolio/precache-manifest.50058b6128aec0acd3e19c2067646545.js",
+    "precache-manifest.23dbdd6bf50e5cb9a4c3cdb9b06b6ab3.js": "/portfolio/precache-manifest.23dbdd6bf50e5cb9a4c3cdb9b06b6ab3.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/portfolio/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.f6a219e2.chunk.css.map": "/portfolio/static/css/main.f6a219e2.chunk.css.map",
+    "static/css/main.d8fb7c2d.chunk.css.map": "/portfolio/static/css/main.d8fb7c2d.chunk.css.map",
     "static/js/2.fa3aeb22.chunk.js.LICENSE.txt": "/portfolio/static/js/2.fa3aeb22.chunk.js.LICENSE.txt",
     "static/media/Sandip-Chakraborty-Resume.pdf": "/portfolio/static/media/Sandip-Chakraborty-Resume.ee72ce02.pdf"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.209c2d7e.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.fa3aeb22.chunk.js",
-    "static/css/main.f6a219e2.chunk.css",
-    "static/js/main.10545361.chunk.js"
+    "static/css/main.d8fb7c2d.chunk.css",
+    "static/js/main.afbf3d17.chunk.js"
   ]
 }
