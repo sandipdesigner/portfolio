@@ -343,6 +343,7 @@ p {
   letter-spacing: 0.1rem;
   border: 2px solid #1096ca;
   background: #1096ca;
+  color: #fff;
 }
 
 .btn-purple:hover {
@@ -369,6 +370,7 @@ nav {
   left: 0;
   width: 100%;
   z-index: 2;
+  background: #1096ca;
 }
 
 nav h1#logo {
@@ -452,8 +454,8 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: radial-gradient(#454d62, #252934);
-  color: #fff;
+  background: #fff;
+  color: #000;
 }
 
 header .container {
@@ -473,6 +475,10 @@ header h1 span {
   color: #1096ca;
 }
 
+header h1 strong {
+  color: #07688e;
+}
+
 header .connect {
   margin: 2rem 0 2rem 0;
   display: -webkit-box;
@@ -488,7 +494,7 @@ header .connect {
 header .connect h2 {
   font-size: 1.3rem;
   letter-spacing: 0.1rem;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 header .connect ul {
@@ -507,7 +513,7 @@ header .connect ul li {
 }
 
 header .connect ul li a {
-  color: #fff;
+  color: rgba(0, 0, 0, 0.3);
 }
 
 header .skillsection p {
@@ -517,7 +523,7 @@ header .skillsection p {
   letter-spacing: 1px;
   text-transform: uppercase;
   text-align: center;
-  color: rgba(255, 255, 255, 0.7);
+  color: #333;
 }
 
 header .skillsection .skills-container {
@@ -575,11 +581,13 @@ header .project-box {
   cursor: pointer;
   min-height: 250px;
   padding: 30px;
-  background: rgba(255, 255, 255, 0.1);
+  border: 3px solid #1096ca;
+  box-sizing: border-box;
+  border-radius: 10px;
 }
 
 header .project-box p {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 header .project-box h2 {
