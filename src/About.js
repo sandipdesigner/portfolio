@@ -48,6 +48,8 @@ function About() {
       
     },
 
+    // Frontend
+
     {
       tech: "ADOBE PHOTOSHOP",
       height: "90%",
@@ -85,7 +87,7 @@ function About() {
       <div className="row">
       <div className="col-xl-5 col-lg-6">
       <h1 className="mb-20"><span>Introduction</span> </h1>
-      <p className="mt-10 mb-30">I have 8+ years of experience in the fields of UI/UX designing and Front end development. I also have excellent experience in managing clients and delivery.</p>
+      <p className="mt-10 mb-30">I have 9+ years of experience in the fields of UI/UX designing and Front end development. I also have excellent experience in managing clients and delivery.</p>
      
       <a href={Pdf} target="_blank" className="btn-purple">Download Resume</a>
       </div>
