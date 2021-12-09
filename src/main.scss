@@ -142,7 +142,7 @@ a:focus {
 }
 
 body {
-  font-size: 62.5%;
+  font-size: 1rem;
   font-family: 'Lato', sans-serif, Arial, Helvetica, sans-serif;
 }
 h1 {
@@ -286,6 +286,10 @@ header {
   background: #fff;
   color: #000;
 
+  &.iq{
+    align-items: unset;
+  }
+
   .container {
     position: relative;
     z-index: 2;
@@ -407,6 +411,57 @@ header {
     h2 {
       color: $blueColor;
       margin-bottom: 10px;
+    }
+  }
+}
+ul.interviewlist{
+  background-color: $lightblueColor;
+  padding: 15px 10px;
+  border-radius: 10px;
+
+  li{    
+    border-bottom: 1px solid rgba(0,0,0,0.04);
+      a{
+        &.tabs{
+          display: block;
+          padding: 10px;
+          border-radius: 5px;
+          cursor: pointer;
+
+          &.tabs-active{
+            background: rgba(255,255,255,0.3);
+          }
+        }
+      }
+    
+      &:last-child{
+        border-bottom: 0;
+      }
+  }
+}
+
+
+.tab-content{
+  display: none;
+
+  &.tab-content-active{
+    display: block;
+  }
+  
+  .qa{
+    background: $skyColor;
+    margin-bottom: 30px;
+    overflow: hidden;
+    border-radius: 10px;
+    h2{
+      background: $lightblueColor;
+      font-size: 1.5rem;
+      padding:10px 15px;
+    }
+    p{
+      background: none;
+      font-size: 1.1rem;
+      padding: 20px;
     }
   }
 }
