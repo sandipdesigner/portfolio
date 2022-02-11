@@ -36,8 +36,8 @@ function About() {
 
     {
       tech: "REACT JS",
-      height: "70%",
-      level: "70",
+      height: "80%",
+      level: "80",
       
     },
 
