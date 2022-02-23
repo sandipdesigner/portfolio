@@ -1,6 +1,6 @@
 import React from 'react';
 import './main.css';
-import Pdf from './Sandip-Chakraborty-Resume.pdf'
+// import Pdf from './Sandip-Chakraborty-Resume.pdf'
 
 function About() {
 
@@ -89,7 +89,7 @@ function About() {
       <h1 className="mb-20"><span>Introduction</span> </h1>
       <p className="mt-10 mb-30">I have 9+ years of experience in the fields of UI/UX designing and Front end development. I also have excellent experience in managing clients and delivery.</p>
      
-      <a href={Pdf} target="_blank" className="btn-purple">Download Resume</a>
+      {/* <a href={Pdf} target="_blank" className="btn-purple">Download Resume</a> */}
       </div>
 
       <div className="col-xl-7 col-lg-6 skillsection">

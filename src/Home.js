@@ -14,7 +14,7 @@ function Home() {
               <br />
               I am a{" "}
               <Typical
-                steps={["UI/UX Designer.", 3000, "Front End Developer.", 3000]}
+                steps={["Front End Developer.", 3000, "UI/UX Designer.", 3000]}
                 loop={Infinity}
                 wrapper="strong"
               />

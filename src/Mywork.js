@@ -62,11 +62,11 @@ function Mywork() {
                 </div>
             ))}
 
-               <div className="col-xl-12 text-center mt-30">
+               {/* <div className="col-xl-12 text-center mt-30">
                 <a href={Pdf} target="_blank" className="btn-purple">
                   Download Resume
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
